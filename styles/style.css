@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'LoveLetter';
+    src: url('fonts/Lovelt__.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    background-color: antiquewhite;
+    font-size: 16px;
+}
+
+header {
+    font-family: 'LoveLetter';
+    font-size: 4em;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+

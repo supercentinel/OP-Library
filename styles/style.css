@@ -15,6 +15,19 @@ header {
     text-align: center;
 }
 
+#editSection {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2.5%;
+}
+
+#editSection > button {
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 table {
     margin: auto;
 }
@@ -23,4 +36,33 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
 }
+
+#popUpForm {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    /*ocult
+    visibility: hidden;
+   */
+    display: none;
+    padding: 4%
+}
+
+#popUpForm > h2 {
+    margin-top: 0;
+    margin-bottom: 7.5%;
+}
+
+#popUpForm > form > #infoInput {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
 

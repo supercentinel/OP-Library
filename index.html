@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,6 +9,11 @@
 <header>
     Library
 </header>
+<div id="editSection">
+    <button id="addBookButton">Add</button>
+    <button id="editBookButton">Edit</button>
+    <button id="removeBookButton">Remove</button>
+</div>
 <body>
     <table>
         <tr>
@@ -20,6 +24,24 @@
             <th>Readed</th>
         </tr>
     </table>
+    <div id="popUpForm">
+        <h2>asd</h2>
+        <form>
+            <div id="infoInput">
+                <label for="">Title</label>
+                <input type="text" name="" id="title" required>
+                <label for="">Author</label>
+                <input type="text" name="" id="author" required>
+                <label for="">Number of Pages</label>
+                <input type="number" name="" id="nPages" required>
+                <label for="">Publication date</label>
+                <input type="date" name="" id="pDate" required>
+                <label for="">Readed</label>
+                <input type="checkbox" name="" id="readed" value="true">
+            </div>
+            <input type="submit" value="Add" id="submitButton" >
+        </form>
+    </div>
     <script src="lib/script.js"></script>
 </body>
 </html>

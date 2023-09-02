@@ -9,7 +9,7 @@ body {
     font-size: 16px;
 }
 
-header {
+body > header {
     font-family: 'LoveLetter';
     font-size: 4em;
     text-align: center;
@@ -52,9 +52,35 @@ table, th, td {
     padding: 4%
 }
 
-#popUpForm > h2 {
+#popUpForm > #formHeader {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#popUpForm > #formHeader > button {
+    flex: .05;
+}
+
+#popUpForm > #formHeader > h2 {
     margin-top: 0;
     margin-bottom: 7.5%;
+    flex: 2;
+}
+
+#popUpForm > #formHeader > button {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 1%;
+    margin-bottom: 15%;
+}
+
+#popUpForm > #formHeader > button:hover {
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: rgba(255, 0, 0, 0.5);
 }
 
 #popUpForm > form > #infoInput {

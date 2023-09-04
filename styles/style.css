@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'LoveLetter';
-    src: url('fonts/Lovelt__.ttf') format('truetype');
+    src: url('./fonts/Lovelt__.ttf') format('truetype');
 }
 
 body {
